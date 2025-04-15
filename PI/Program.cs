@@ -16,7 +16,7 @@ namespace PI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormGERAL());
+            Application.Run(new janelaPESSOA());
         }
     }
 }

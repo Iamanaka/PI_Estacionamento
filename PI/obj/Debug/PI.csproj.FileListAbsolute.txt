@@ -1,0 +1,11 @@
+C:\Users\lauro.biamanaka\source\repos\PI\PI\bin\Debug\PI.exe.config
+C:\Users\lauro.biamanaka\source\repos\PI\PI\bin\Debug\PI.exe
+C:\Users\lauro.biamanaka\source\repos\PI\PI\bin\Debug\PI.pdb
+C:\Users\lauro.biamanaka\source\repos\PI\PI\obj\Debug\PI.csproj.AssemblyReference.cache
+C:\Users\lauro.biamanaka\source\repos\PI\PI\obj\Debug\PI.FormGERAL.resources
+C:\Users\lauro.biamanaka\source\repos\PI\PI\obj\Debug\PI.janelaPESSOA.resources
+C:\Users\lauro.biamanaka\source\repos\PI\PI\obj\Debug\PI.Properties.Resources.resources
+C:\Users\lauro.biamanaka\source\repos\PI\PI\obj\Debug\PI.csproj.GenerateResource.cache
+C:\Users\lauro.biamanaka\source\repos\PI\PI\obj\Debug\PI.csproj.CoreCompileInputs.cache
+C:\Users\lauro.biamanaka\source\repos\PI\PI\obj\Debug\PI.exe
+C:\Users\lauro.biamanaka\source\repos\PI\PI\obj\Debug\PI.pdb

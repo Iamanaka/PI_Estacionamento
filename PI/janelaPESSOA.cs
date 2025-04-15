@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PI
 {
-    public partial class FormGERAL : Form
+    public partial class janelaPESSOA : Form
     {
-        public FormGERAL()
+        public janelaPESSOA()
         {
             InitializeComponent();
-        }
-
-        private void buttonLOGIN_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
