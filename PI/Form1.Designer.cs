@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGERAL));
             this.textBoxUSUARIO = new System.Windows.Forms.TextBox();
             this.textBoxSENHA = new System.Windows.Forms.TextBox();
+            this.buttonLOGIN = new System.Windows.Forms.Button();
+            this.labelEMPRESA = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelSENHA = new System.Windows.Forms.Label();
             this.labelUSUARIO = new System.Windows.Forms.Label();
-            this.buttonLOGIN = new System.Windows.Forms.Button();
-            this.labelEMPRESA = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,6 +54,26 @@
             this.textBoxSENHA.Name = "textBoxSENHA";
             this.textBoxSENHA.Size = new System.Drawing.Size(188, 26);
             this.textBoxSENHA.TabIndex = 3;
+            // 
+            // buttonLOGIN
+            // 
+            this.buttonLOGIN.Location = new System.Drawing.Point(332, 267);
+            this.buttonLOGIN.Name = "buttonLOGIN";
+            this.buttonLOGIN.Size = new System.Drawing.Size(64, 58);
+            this.buttonLOGIN.TabIndex = 5;
+            this.buttonLOGIN.Text = "LOGIN";
+            this.buttonLOGIN.UseVisualStyleBackColor = true;
+            this.buttonLOGIN.Click += new System.EventHandler(this.buttonLOGIN_Click);
+            // 
+            // labelEMPRESA
+            // 
+            this.labelEMPRESA.AutoSize = true;
+            this.labelEMPRESA.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelEMPRESA.Location = new System.Drawing.Point(12, 352);
+            this.labelEMPRESA.Name = "labelEMPRESA";
+            this.labelEMPRESA.Size = new System.Drawing.Size(96, 23);
+            this.labelEMPRESA.TabIndex = 6;
+            this.labelEMPRESA.Text = "PI_CAMLAU";
             // 
             // pictureBox1
             // 
@@ -82,26 +103,6 @@
             this.labelUSUARIO.Size = new System.Drawing.Size(119, 26);
             this.labelUSUARIO.TabIndex = 0;
             // 
-            // buttonLOGIN
-            // 
-            this.buttonLOGIN.Location = new System.Drawing.Point(332, 267);
-            this.buttonLOGIN.Name = "buttonLOGIN";
-            this.buttonLOGIN.Size = new System.Drawing.Size(64, 58);
-            this.buttonLOGIN.TabIndex = 5;
-            this.buttonLOGIN.Text = "LOGIN";
-            this.buttonLOGIN.UseVisualStyleBackColor = true;
-            this.buttonLOGIN.Click += new System.EventHandler(this.buttonLOGIN_Click);
-            // 
-            // labelEMPRESA
-            // 
-            this.labelEMPRESA.AutoSize = true;
-            this.labelEMPRESA.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelEMPRESA.Location = new System.Drawing.Point(12, 352);
-            this.labelEMPRESA.Name = "labelEMPRESA";
-            this.labelEMPRESA.Size = new System.Drawing.Size(96, 23);
-            this.labelEMPRESA.TabIndex = 6;
-            this.labelEMPRESA.Text = "PI_CAMLAU";
-            // 
             // FormGERAL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -116,6 +117,7 @@
             this.Controls.Add(this.labelSENHA);
             this.Controls.Add(this.labelUSUARIO);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormGERAL";
             this.Text = "Welcome!";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PI
 {
-    public partial class janelaPESSOA : Form
+    public partial class menuCADASTRO : Form
     {
-        public janelaPESSOA()
+        public menuCADASTRO()
         {
             InitializeComponent();
+        }
+
+        private void menuCADASTRO_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
